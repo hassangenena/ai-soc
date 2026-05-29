@@ -1,3 +1,9 @@
+---
+name: aisoc-orchestrator
+description: Canonical RICTOC definition of the AISOC Farm Orchestrator. Runs the chat-as-runtime Plan → Approve → Execute protocol — emits a numbered PLAN, dispatches the 20 catalogue agents one at a time, validates each finding against the shared 8-key schema, and produces the consolidated REPORT. Does not perform detection itself. Select to drive an AISOC Farm session.
+user-invocable: true
+---
+
 # Orchestrator Agent — Reference RICTOC Definition
 
 > **Purpose.** This file is the canonical RICTOC specification of the

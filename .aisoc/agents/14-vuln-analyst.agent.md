@@ -1,3 +1,8 @@
+---
+name: aisoc-agent-14-vuln-scanner-output-analyst
+description: RICTOC prompt for AISOC Farm Agent #14, the Vuln Scanner Output Analyst. Deduplicates and prioritizes remediation from Nessus/OpenVAS-style output (CSV/JSON, 10–15 findings). Emits the shared 8-key finding plus extra keys top_priorities and suppressed_fps. Paste when the Orchestrator dispatches Agent #14.
+---
+
 # Agent #14 — Vuln Scanner Output Analyst (RICTOC v1)
 
 > **Status:** ⚠️ Stub awaiting student authorship.

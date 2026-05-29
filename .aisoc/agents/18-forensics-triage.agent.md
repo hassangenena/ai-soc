@@ -1,3 +1,8 @@
+---
+name: aisoc-agent-18-digital-forensics-triage
+description: RICTOC prompt for AISOC Farm Agent #18, the Digital Forensics Triage. Extracts key indicators and recommends next acquisition steps from a disk + memory artefact summary. Emits the shared 8-key finding plus extra keys key_indicators and next_acquisitions. Paste when the Orchestrator dispatches Agent #18.
+---
+
 # Agent #18 — Digital Forensics Triage (RICTOC v1)
 
 > **Status:** ⚠️ Stub awaiting student authorship.

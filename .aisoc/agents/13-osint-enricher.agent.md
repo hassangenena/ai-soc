@@ -1,3 +1,8 @@
+---
+name: aisoc-agent-13-osint-threat-intel-enricher
+description: RICTOC prompt for AISOC Farm Agent #13, the OSINT / Threat-Intel Enricher. Structures enrichment from a pasted intel corpus (one IoC + a 1-page intel snippet). Emits the shared 8-key finding plus extra keys actor, campaign, attack_techniques, and source_quote. Paste when the Orchestrator dispatches Agent #13.
+---
+
 # Agent #13 — OSINT / Threat-Intel Enricher (RICTOC v1)
 
 > **Status:** ⚠️ Stub awaiting student authorship.

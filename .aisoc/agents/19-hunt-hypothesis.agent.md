@@ -1,3 +1,8 @@
+---
+name: aisoc-agent-19-threat-hunting-hypothesis
+description: RICTOC prompt for AISOC Farm Agent #19, the Threat-Hunting Hypothesis builder. Turns a one-sentence hypothesis into Sigma rules, KQL queries, and a confirmation checklist. Emits the shared 8-key finding plus extra keys sigma_rules, kql_queries, and checklist. Paste when the Orchestrator dispatches Agent #19.
+---
+
 # Agent #19 — Threat-Hunting Hypothesis (RICTOC v1)
 
 > **Status:** ⚠️ Stub awaiting student authorship.

@@ -1,3 +1,8 @@
+---
+name: aisoc-agent-09-insider-threat-behaviour
+description: RICTOC prompt for AISOC Farm Agent #9, the Insider Threat Behaviour analyst. Correlates HR signal with data-movement events (composite text: HR note + USB/SharePoint events) to score insider risk. Emits the shared 8-key finding plus extra keys user_risk and contributing_signals. Paste when the Orchestrator dispatches Agent #9.
+---
+
 # Agent #9 — Insider Threat Behaviour (RICTOC v1)
 
 > **Status:** ⚠️ Stub awaiting student authorship.

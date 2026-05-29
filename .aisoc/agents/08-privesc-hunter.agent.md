@@ -1,3 +1,8 @@
+---
+name: aisoc-agent-08-privilege-escalation-hunter
+description: RICTOC prompt for AISOC Farm Agent #8, the Privilege Escalation Hunter. Hunts token manipulation, sudo abuse, and group drift across Windows Security 4672/4673, Linux sudo logs, and group-add events. Emits the shared 8-key finding plus extra keys escalation_events and attack_subtechniques. Paste when the Orchestrator dispatches Agent #8.
+---
+
 # Agent #8 — Privilege Escalation Hunter (RICTOC v1)
 
 > **Status:** ⚠️ Stub awaiting student authorship.

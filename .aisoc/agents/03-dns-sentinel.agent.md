@@ -1,3 +1,8 @@
+---
+name: aisoc-agent-03-dns-sentinel
+description: RICTOC prompt for AISOC Farm Agent #3, the DNS Sentinel — the complete worked example shipped with the farm. Detects DGA domains, DNS tunneling, and typosquats from a list of DNS queries (text or JSON, one per line). Emits the shared 8-key finding plus extra keys flagged_count, total_count, and per_line. Paste when the Orchestrator dispatches Agent #3.
+---
+
 # Agent #3 — DNS Sentinel (RICTOC v1)
 
 > **Worked example.** This file is the reference agent prompt shipped

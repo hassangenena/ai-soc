@@ -1,3 +1,8 @@
+---
+name: aisoc-agent-12-attachment-triage
+description: RICTOC prompt for AISOC Farm Agent #12, the Attachment Triage. Risk-scores attachments from filename, hash, MIME type, and macro signals (JSON list of attachments). Emits the shared 8-key finding plus extra keys attachment_scores and reasons. Paste when the Orchestrator dispatches Agent #12.
+---
+
 # Agent #12 — Attachment Triage (RICTOC v1)
 
 > **Status:** ⚠️ Stub awaiting student authorship.

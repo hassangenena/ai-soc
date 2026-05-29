@@ -1,3 +1,8 @@
+---
+name: aisoc-agent-04-tls-certificate-inspector
+description: RICTOC prompt for AISOC Farm Agent #4, the TLS / Certificate Inspector. Analyzes openssl-style certificate dumps and optional JA3 hashes for C2, expired, or mismatched certificates. Emits the shared 8-key finding plus extra keys cert_verdicts and mismatch_fields. Paste when the Orchestrator dispatches Agent #4.
+---
+
 # Agent #4 — TLS / Certificate Inspector (RICTOC v1)
 
 > **Status:** ⚠️ Stub awaiting student authorship.

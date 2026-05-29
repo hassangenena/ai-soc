@@ -1,3 +1,8 @@
+---
+name: aisoc-agent-20-executive-briefing
+description: RICTOC prompt for AISOC Farm Agent #20, the Executive Briefing. Produces a non-technical four-section summary (What happened / Impact / What we did / What we ask) from a consolidated finding object. Emits the shared 8-key finding plus extra key exec_sections. Paste when the Orchestrator dispatches Agent #20.
+---
+
 # Agent #20 — Executive Briefing (RICTOC v1)
 
 > **Status:** ⚠️ Stub awaiting student authorship.

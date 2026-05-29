@@ -1,3 +1,8 @@
+---
+name: aisoc-agent-17-log-correlation-timeline
+description: RICTOC prompt for AISOC Farm Agent #17, the Log Correlation & Timeline analyst. Builds a chronological narrative and causal links from ~20 mixed events (firewall/auth/Sysmon/EDR). Emits the shared 8-key finding plus extra keys timeline and causal_links. Paste when the Orchestrator dispatches Agent #17.
+---
+
 # Agent #17 — Log Correlation & Timeline (RICTOC v1)
 
 > **Status:** ⚠️ Stub awaiting student authorship.

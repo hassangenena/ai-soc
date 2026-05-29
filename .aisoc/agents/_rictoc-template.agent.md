@@ -1,3 +1,8 @@
+---
+name: aisoc-agent-NN-short-name
+description: RICTOC skeleton for student-authored AISOC Farm agents. Copy this file to .aisoc/agents/<NN>-<short-name>.agent.md, fill in every section, and replace this frontmatter with the agent's own name and description (scope, input, extra output keys, and the "Paste when the Orchestrator dispatches Agent #N" line). See 03-dns-sentinel.agent.md for a complete worked example.
+---
+
 # Agent #NN — <Short Name> (RICTOC v1)
 
 > **Authoring guide.** This file is the canonical RICTOC skeleton for

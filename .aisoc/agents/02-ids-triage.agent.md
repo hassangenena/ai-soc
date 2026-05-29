@@ -1,3 +1,8 @@
+---
+name: aisoc-agent-02-signature-ids-triage
+description: RICTOC prompt for AISOC Farm Agent #2, the Signature IDS Triage. Deduplicates and rates a Suricata eve.json alert array (10–15 alerts), separating likely true positives from false positives. Emits the shared 8-key finding plus extra keys dedup_count, tp_sids, and fp_sids. Paste when the Orchestrator dispatches Agent #2.
+---
+
 # Agent #2 — Signature IDS Triage (RICTOC v1)
 
 > **Status:** ⚠️ Stub awaiting student authorship.

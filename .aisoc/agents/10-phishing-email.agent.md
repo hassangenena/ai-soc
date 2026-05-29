@@ -1,3 +1,8 @@
+---
+name: aisoc-agent-10-phishing-email-analyst
+description: RICTOC prompt for AISOC Farm Agent #10, the Phishing Email Analyst. Scores phishing, extracts IoCs, and surfaces BEC tells from raw .eml-style headers and body. Emits the shared 8-key finding plus extra keys per_message, iocs, and bec_tells. Paste when the Orchestrator dispatches Agent #10.
+---
+
 # Agent #10 — Phishing Email Analyst (RICTOC v1)
 
 > **Status:** ⚠️ Stub awaiting student authorship.

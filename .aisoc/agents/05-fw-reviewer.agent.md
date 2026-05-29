@@ -1,3 +1,8 @@
+---
+name: aisoc-agent-05-firewall-policy-reviewer
+description: RICTOC prompt for AISOC Farm Agent #5, the Firewall Policy Reviewer. Flags permissive, shadowed, and missing-egress rules in an iptables / nftables / Cisco-ACL ruleset (15–20 rules). Emits the shared 8-key finding plus extra keys findings_by_line and categories. Paste when the Orchestrator dispatches Agent #5.
+---
+
 # Agent #5 — Firewall Policy Reviewer (RICTOC v1)
 
 > **Status:** ⚠️ Stub awaiting student authorship.

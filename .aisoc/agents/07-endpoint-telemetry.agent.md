@@ -1,3 +1,8 @@
+---
+name: aisoc-agent-07-endpoint-telemetry-analyst
+description: RICTOC prompt for AISOC Farm Agent #7, the Endpoint Telemetry Analyst. Detects suspicious process trees, LOLBins, and persistence from Sysmon EventID 1/3/11 records (JSON). Emits the shared 8-key finding plus extra keys suspicious_chains and lolbins. Paste when the Orchestrator dispatches Agent #7.
+---
+
 # Agent #7 — Endpoint Telemetry Analyst (RICTOC v1)
 
 > **Status:** ⚠️ Stub awaiting student authorship.

@@ -1,3 +1,8 @@
+---
+name: aisoc-agent-11-malicious-url-web
+description: RICTOC prompt for AISOC Farm Agent #11, the Malicious URL & Web analyst. Issues a per-URL verdict (homoglyph, redirect, exploit kit) over a plain-text list of URLs. Emits the shared 8-key finding plus extra keys url_verdicts and tag_counts. Paste when the Orchestrator dispatches Agent #11.
+---
+
 # Agent #11 — Malicious URL & Web (RICTOC v1)
 
 > **Status:** ⚠️ Stub awaiting student authorship.

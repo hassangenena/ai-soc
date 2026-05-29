@@ -1,3 +1,8 @@
+---
+name: aisoc-agent-06-authentication-anomaly
+description: RICTOC prompt for AISOC Farm Agent #6, the Authentication Anomaly analyst. Runs UEBA over auth logs (CSV: timestamp,user,src_ip,geo,result,mfa_status) to detect impossible travel, brute force, and off-hours access. Emits the shared 8-key finding plus extra keys anomaly_types and user_risk. Paste when the Orchestrator dispatches Agent #6.
+---
+
 # Agent #6 — Authentication Anomaly (RICTOC v1)
 
 > **Status:** ⚠️ Stub awaiting student authorship.

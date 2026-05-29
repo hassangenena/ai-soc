@@ -1,0 +1,4 @@
+# Reserved for an operator-command vocabulary reference.
+# The authoritative operator vocabulary currently lives in
+# ../skills/boot/SKILL.md (Block 3). This directory is a placeholder so the
+# layout in the proposal is preserved when the repo is pushed.

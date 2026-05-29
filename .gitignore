@@ -1,0 +1,20 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+*.code-workspace
+
+# Local IDE assistant state (keep the shared wrappers, ignore local-only files)
+.claude/settings.local.json
+.vscode/settings.json
+
+# Student transcripts / scratch (large, personal — keep out of the shared repo)
+**/transcripts/
+*.transcript.txt
+
+# Node / Python tooling (only if a student adds helper tooling locally)
+node_modules/
+__pycache__/
+.venv/

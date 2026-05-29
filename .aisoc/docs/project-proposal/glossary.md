@@ -1,13 +1,12 @@
 # AISOC Farm — Glossary
 
 **Companion to:** [`proposal.md`](./proposal.md),
-[`proposal-3wk.md`](./proposal-3wk.md),
-[`test-worksheet.md`](./test-worksheet.md),
-[`test-worksheet-3wk.md`](./test-worksheet-3wk.md)
+[`delivery-plan.md`](./delivery-plan.md),
+[`test-worksheet.md`](./test-worksheet.md)
 
 This file defines every abbreviation, acronym, and project-specific
-term used in the proposals and test worksheets. Terms are grouped by
-topic; within each group entries are alphabetical.
+term used in the proposal, delivery plan, and test worksheet. Terms are
+grouped by topic; within each group entries are alphabetical.
 
 ---
 

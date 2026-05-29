@@ -16,7 +16,9 @@ markdown prompt files. Treat them as software: precise, versioned, reviewable.
   - `.aisoc/agents/aisoc-orchestrator.agent.md` — reference RICTOC for the Orchestrator role.
   - `.aisoc/schema/finding.json` — the shared 8-key finding schema all agents emit.
   - `.aisoc/scenarios/` — reference scenarios for end-to-end testing.
-  - `.aisoc/docs/project-proposal/` — the full proposal, glossary, and test worksheets.
+  - `.aisoc/docs/project-proposal/` — the timeline-neutral `proposal.md`, the
+    `delivery-plan.md` (selectable 3-week / 6-week schedules), `test-worksheet.md`,
+    and `glossary.md`.
 - **Wrappers (sugar only): `.claude/` and `.github/`.** These load the canonical
   `.aisoc/` files. They must never alter agent behaviour.
 

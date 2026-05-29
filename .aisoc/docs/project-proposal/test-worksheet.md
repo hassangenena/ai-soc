@@ -1,17 +1,14 @@
-# AISOC Farm — Agent Test Worksheet (3-Week Variant)
+# AISOC Farm — Agent Test Worksheet
 
-**Companion to:** [`proposal-3wk.md`](./proposal-3wk.md) (v1.0, 3-week
-single-milestone variant)
+**Companion to:** [`proposal.md`](./proposal.md) (timeline-neutral)
 **Purpose:** Give every student an identical, gradable test bar for the
 agent they own, and give graders an identical checklist to score against.
 
-> **Variant note.** The per-agent pass conditions below are identical
-> to the 6-week worksheet ([`test-worksheet.md`](./test-worksheet.md))
-> — the bar for "does this agent work" does not change when the
-> calendar does. What differs is **when** the worksheet is graded
-> (once, at the Week 2 checkpoint, instead of as part of a separate
-> Milestone 2 grade) and **how** it rolls up (see § *Grading rubric*
-> at the bottom).
+> **Timeline-neutral.** The per-agent pass conditions below do not change
+> when the calendar does — the bar for "does this agent work" is fixed.
+> *When* the worksheet is filled and graded, and *how* its score rolls up
+> into the final grade, depend on the chosen variant; see
+> [`delivery-plan.md`](./delivery-plan.md).
 
 ---
 
@@ -19,12 +16,14 @@ agent they own, and give graders an identical checklist to score against.
 
 - **One worksheet per student.** Print or copy the section for the agent
   number you were assigned.
-- **Fill it during Week 2.** Each "Pass check" must be marked
-  Pass/Fail after running the agent against the paste-in input.
+- **Fill it during the testing & hardening phase.** Each "Pass check" must
+  be marked Pass/Fail after running the agent against the paste-in input.
+  (When that phase falls in your timeline is set by
+  [`delivery-plan.md`](./delivery-plan.md).)
 - **Cross-environment proof is mandatory.** Every Pass check must hold in
   *both* GitHub Copilot Chat and Claude Code; attach the two transcripts.
-- **Bring it to the Week 3 defense.** The signed worksheet is the entry
-  ticket for the farm-integration session and the oral defense.
+- **Bring it to the integration & defense session.** The signed worksheet is
+  the entry ticket for the farm-integration walk-through and the defense.
 
 ### Universal schema check (applies to every agent)
 
@@ -407,8 +406,9 @@ DNS-over-HTTPS for C2 from a finance workstation."* Reference:
 | 3 | Numbered confirmation checklist with explicit stop conditions | ☐ | |
 | 4 | Non-execution disclaimer present (queries are proposals, not runs) | ☐ | |
 
-> **3-week note.** Agent #19 is *strongly discouraged* in this variant
-> unless the student already has Sigma + KQL exposure. Confirm with
+> **Selection note.** Agent #19 assumes prior Sigma + KQL exposure. In
+> compressed timelines (see [`delivery-plan.md`](./delivery-plan.md)) it is
+> discouraged unless the student already has that background — confirm with
 > the instructor before selecting.
 
 ---
@@ -448,10 +448,11 @@ Plus the 6 universal checks (U1–U6), scored the same way.
 | Cross-environment consistency block | 2 |
 | **Worksheet total** | **12–13** |
 
-In the 3-week variant the worksheet score feeds the **single
-consolidated milestone grade** (100% of project total — see
-`proposal-3wk.md` § 6), specifically the *Detection quality* and
-*Cross-environment portability* dimensions.
+The worksheet score feeds the **Detection quality** and **Cross-environment
+portability** dimensions of the grade (see [`proposal.md`](./proposal.md) § 6).
+How the worksheet rolls up across phases — and what fraction of the project
+total it carries — depends on the chosen timeline; see
+[`delivery-plan.md`](./delivery-plan.md).
 
 ---
 

@@ -4,6 +4,9 @@ Welcome to the **AISOC Farm** university project! This repository is an in-chat,
 
 As a student, you will own, author, and test one of the 20 available security agents. Below is the quick, concise flow on how to select, write, and submit your agent, and how to operate the overall farm.
 
+> [!TIP]
+> Make sure to double check that no other student has already submitted a Pull Request for your chosen agent before you start working!
+
 ---
 
 ## 1. Student Rules & Naming Convention

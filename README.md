@@ -11,6 +11,9 @@ Security course. Each student owns one agent, authored purely as a
 [RICTOC](#rictoc) prompt, and the agents cooperate through the Orchestrator's
 chat-based dispatch.
 
+> [!IMPORTANT]
+> **Students:** Please refer to the [Student Contribution Guide](CONTRIBUTING.md) for naming conventions, submission guidelines, branch protection rules, and operational workflows.
+
 > **Prompts are the product.** There is intentionally no runnable code here.
 > The deliverables are markdown prompt files, version-controlled, tested, and
 > reviewed like software.

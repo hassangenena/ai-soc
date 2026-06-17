@@ -9,6 +9,17 @@ As a student, you will own, author, and test one of the 20 available security ag
 
 ---
 
+## 0. Joining the Repository
+
+Before you can push branches or open Pull Requests, you must be added as a collaborator to this repository:
+
+1. **Invitation Link:**
+   An invitation link will be sent to you by the course organizers. Click the link and accept the invitation to join the repository.
+2. **Alternative Method:**
+   If the invitation link does not work or you haven't received it, please contact either **Farouk** or **Hassan** directly. Provide them with your **GitHub username**, and they will manually send you an invitation to join.
+
+---
+
 ## 1. Student Rules & Naming Convention
 
 ### Step A: Pick Your Agent

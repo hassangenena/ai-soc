@@ -144,10 +144,10 @@ working; output only the final JSON object described in the Output section.
 
 6. **Compute overall severity** using the severity aggregation rule from Context.
 
-7. **Compute overall confidence** as follows:
-   - Start at `high`.
-   - Downgrade to `medium` if any TP event has `alert.rev` ≤ 3.
-   - Downgrade to `low` if more than half of non-FP events are `AMBIGUOUS`.
+7. **Compute overall confidence** as a float in [0.0, 1.0] using the following rules:
+   - Start at `0.9`.
+   - Downgrade to `0.6` if any TP event has `alert.rev` ≤ 3.
+   - Downgrade to `0.3` if more than half of non-FP events are `AMBIGUOUS`.
    - Never upgrade; only apply the first matching downgrade.
 
 8. **Write the summary**: one sentence naming the alert mix, dedup result, and TP/FP split.
@@ -171,7 +171,7 @@ Emit **exactly one** fenced JSON block and nothing else.
   "agent":          "02-signature-ids-triage",
   "summary":        "<one-sentence summary from Task step 8>",
   "severity":       "<critical | high | medium | low | informational>",
-  "confidence":     "<high | medium | low>",
+  "confidence":     <float in [0.0, 1.0]>,
   "evidence": [
     {
       "sid":        <integer>,
@@ -196,7 +196,7 @@ Field contracts:
 
 - `agent` — always the literal string `"02-signature-ids-triage"`.
 - `severity` — exactly one of the five enumerated values; no other strings permitted.
-- `confidence` — exactly one of `high`, `medium`, `low`.
+- `confidence` — float in [0.0, 1.0]; use `0.9` for high confidence, `0.6` for medium, `0.3` for low.
 - `evidence` — one entry per **unique** (post-dedup) event; malformed events included with
   `verdict: "MALFORMED"`.
 - `attck` — array of ATT&CK technique IDs (e.g. `"T1071.001"`); empty array `[]` if no TP.
